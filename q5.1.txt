@@ -1,0 +1,48 @@
+== Info: Host example.com:80 was resolved.
+== Info: IPv6: 2606:4700:10::ac42:93f3, 2606:4700:10::6814:179a
+== Info: IPv4: 104.20.23.154, 172.66.147.243
+== Info:   Trying [2606:4700:10::ac42:93f3]:80...
+== Info: Connected to example.com (2606:4700:10::ac42:93f3) port 80
+=> Send header, 74 bytes (0x4a)
+0000: GET / HTTP/1.1
+0010: Host: example.com
+0023: User-Agent: curl/8.5.0
+003b: Accept: */*
+0048: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 15 Jun 2026 18:41:24 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 20 bytes (0x14)
+0000: Server: cloudflare
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Sun, 14 Jun 2026 20:47:57 GMT
+<= Recv header, 18 bytes (0x12)
+0000: Allow: GET, HEAD
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 12 bytes (0xc)
+0000: Age: 12933
+<= Recv header, 22 bytes (0x16)
+0000: cf-cache-status: HIT
+<= Recv header, 30 bytes (0x1e)
+0000: CF-RAY: a0c3b571d9726d51-GIG
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 559 bytes (0x22f)
+0000: <!doctype html><html lang="en"><head><title>Example Domain</titl
+0040: e><link rel="icon" href="data:,"><meta name="viewport" content="
+0080: width=device-width, initial-scale=1"><style>body{background:#eee
+00c0: ;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1
+0100: {font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</s
+0140: tyle></head><body><div><h1>Example Domain</h1><p>This domain is 
+0180: for use in documentation examples without needing permission. Av
+01c0: oid use in operations.</p><p><a href="https://iana.org/domains/e
+0200: xample">Learn more</a></p></div></body></html>.
+== Info: Connection #0 to host example.com left intact
